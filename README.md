@@ -16,8 +16,6 @@ In this **real-time DevOps project**, I demonstrate how to **deploy a Swiggy Clo
 ### 📂 Terraform Script Repository: [**Terraform Script for Swiggy Clone App**](https://github.com/KastroVKiran/Terraform-Script-Swiggy-Kastro.git)
 ---
 
-## 📢 **Share Your Experience!**
-
 If you've successfully deployed the **Swiggy Clone App** using this project, I'd love to hear about it!  
 - 📹 **Post your deployment video** and **tag me on LinkedIn**: [**Kastro Kiran**](https://www.linkedin.com/in/kastro-kiran/)
 
