@@ -18,7 +18,7 @@ pipeline{
                 git 'https://github.com/SIVAJI-MS/Swiggy-App.git'
             }
         }
-        stage("Sonarqube Analysis "){
+        stage("Sonarqube Analysis"){
             steps{
                 withSonarQubeEnv('sonar-server') {
                     sh ''' $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=Swiggy \
@@ -29,7 +29,7 @@ pipeline{
         stage("quality gate"){
            steps {
                 script {
-                    waitForQualityGate abortPipeline: false, credentialsId: 'Sonar-token' 
+                    waitForQualityGate abortPipeline: false, credentialsId: 'sonar-token' 
                 }
             } 
         }
